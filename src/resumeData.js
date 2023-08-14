@@ -82,7 +82,7 @@ let resumeData = {
       },
       {
         "name":"project3",
-        "description":"mobileapp",  
+        "description":"mobileapp",
         "imgurl":"images/portfolio/project2.png"
       },
       {
@@ -102,5 +102,5 @@ let resumeData = {
       }
     ]
   }
-  
+
   export default resumeData

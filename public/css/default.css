@@ -561,7 +561,7 @@ textarea:focus {
 	background-color: #3d4145;
 }
 
-textarea { min-height: 220px; }
+/* textarea { min-height: 220px; } */
 
 label,
 legend {
@@ -593,19 +593,20 @@ input[type="checkbox"] { display: inline; }
 /* default
 --------------------------------------------------------------- */
 .row {
-   width: 96%;
+   width: 100%;
    max-width: 1020px;
-   margin: 0 auto;
+   /* margin-left: 30px */
+   /* margin: 0 auto; */
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
 
 .narrow .row { max-width: 980px; }
 
-.row .row { width: auto; max-width: none; margin: 0 -20px; }
+/* .row .row { width: auto; max-width: none; margin: 0 -20px; } */
 
 /* row clearing */
-.row:before,
+/* .row:before,
 .row:after {
     content: " ";
     display: table;
@@ -623,32 +624,32 @@ input[type="checkbox"] { display: inline; }
 .column.centered, .columns.centered  {
     float: none;
     margin: 0 auto;
-}
+} */
 
 /* removed gutters */
-.row.collapsed > .column,
+/* .row.collapsed > .column,
 .row.collapsed > .columns,
-.column.collapsed, .columns.collapsed  { padding: 0; }
+.column.collapsed, .columns.collapsed  { padding: 0; } */
 
-[class*="column"] + [class*="column"]:last-child { float: right; }
-[class*="column"] + [class*="column"].end { float: right; }
+/* [class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"].end { float: right; } */
 
 /* column widths */
-.row .one         { width: 8.33333%; }
+/* .row .one         { width: 8.33333%; }
 .row .two         { width: 16.66667%; }
-.row .three       { width: 25%; }
+.row .three       { width: 60% }
 .row .four        { width: 33.33333%; }
 .row .five        { width: 41.66667%; }
 .row .six         { width: 50%; }
 .row .seven       { width: 58.33333%; }
 .row .eight       { width: 66.66667%; }
-.row .nine        { width: 75%; }
+.row .nine        { width: 40%; }
 .row .ten         { width: 83.33333%; }
 .row .eleven      { width: 91.66667%; }
-.row .twelve      { width: 100%; }
+.row .twelve      { width: 100%; } */
 
 /* Offsets */
-.row .offset-1    { margin-left: 8.33333%; }
+/* .row .offset-1    { margin-left: 8.33333%; }
 .row .offset-2    { margin-left: 16.66667%; }
 .row .offset-3    { margin-left: 25%; }
 .row .offset-4    { margin-left: 33.33333%; }
@@ -658,10 +659,10 @@ input[type="checkbox"] { display: inline; }
 .row .offset-8    { margin-left: 66.66667%; }
 .row .offset-9    { margin-left: 75%; }
 .row .offset-10   { margin-left: 83.33333%; }
-.row .offset-11   { margin-left: 91.66667%; }
+.row .offset-11   { margin-left: 91.66667%; } */
 
 /* Push/Pull */
-.row .push-1      { left: 8.33333%; }
+/* .row .push-1      { left: 8.33333%; }
 .row .pull-1      { right: 8.33333%; }
 .row .push-2      { left: 16.66667%; 	}
 .row .pull-2      { right: 16.66667%; }
@@ -682,7 +683,7 @@ input[type="checkbox"] { display: inline; }
 .row .push-10     { left: 83.33333%; }
 .row .pull-10     { right: 83.33333%; }
 .row .push-11     { left: 91.66667%; }
-.row .pull-11     { right: 91.66667%; }
+.row .pull-11     { right: 91.66667%; } */
 
 /* block grids
 --------------------------------------------------------------------- */
@@ -801,7 +802,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-

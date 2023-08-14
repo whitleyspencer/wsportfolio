@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   /* height: 100vh; */
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -84,7 +84,7 @@ header .banner-text hr {
 
 /* header social links */
 header .social {
-   margin: 24px 0;
+   margin: 54px 0;
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
@@ -100,7 +100,7 @@ header .social li a:hover { color: #11ABB0; }
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 30px;
+   bottom: 100px;
    left: 50%;
    margin-left: -29px;
    color: #fff;
@@ -165,21 +165,23 @@ ul#nav li a {
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
-   padding: 8px 13px;
+   padding: 15px 30px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
-
+   color: white;
+   background-color: transparent !important;
+   font-size: 11pt;
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
 	-ms-transition: color .2s ease-in-out;
+   /* -webkit-text-stroke: 1px lightblue; */
 	transition: color .2s ease-in-out;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #7ef6fa; }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,14 +189,21 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   /* background: rgba(33,28,37,5); */
+   /* padding-top: 60px;
+   padding-bottom: 66px; */
    overflow: hidden;
+   width: 100%;
+   /* background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-position: top; */
+   background-color: black;
+   height: 100vh
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #about a:visited  { background-color: transparent !important; }
+#about a:hover, #about a:focus { color: lightblue; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -207,8 +216,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 160px;
+   height: 160px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -216,7 +225,7 @@ ul#nav li.current a { color: #F06000; }
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
+/* #about .main-col { padding-right: 5%; } */
 #about .download .button {
    margin-top: 6px;
    background: #444;
@@ -259,7 +268,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .main-col { padding-right: 5%; }
 
 .education, .work {
    margin-bottom: 48px;
@@ -411,21 +420,38 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
-   padding-top: 90px;
+   overflow: hidden;
+   width: 100%;
+   /* background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background-size: cover !important;
+   background-position: center;
+	-webkit-background-size: cover !important; */
+   background-color: black;
+   /* height: 100vh; */
+   padding-top: 60px;
    padding-bottom: 60px;
+   text-align: center;
 }
-#portfolio h1 {
+
+/* #score-account {
+   background: url(../images/score-account.png) no-repeat;
+   background-size: cover;
+} */
+/* #score-jeopardy {
+   background: url(../images/score-jeopardy.png) no-repeat;
+   background-size: contain;
+} */
+/* #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
-}
+} */
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+/* #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
@@ -442,7 +468,6 @@ ul#nav li.current a { color: #F06000; }
    cursor: pointer;
 }
 
-/* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
@@ -499,7 +524,6 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 0;
 }
 
-/* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
@@ -509,7 +533,7 @@ ul#nav li.current a { color: #F06000; }
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
-}
+} */
 
 /* popup modal */
 .popup-modal {
@@ -630,7 +654,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -639,10 +663,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
+   /* background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center; */
+   /* background-size: cover !important;
 	-webkit-background-size: cover !important;
-   background-attachment: fixed;
+   background-attachment: fixed; */
 
    position: relative;
    min-height: 200px;
@@ -654,7 +678,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1003,4 +1027,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
