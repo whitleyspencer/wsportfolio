@@ -81,7 +81,7 @@ export default function Porfolio () {
                           {accountHov ? <><div>Account Features</div><span style={{fontSize:"16pt"}}><BsArrowRightCircle /></span></>:<div className="h2">Account Features</div>}
                         </div>
                     </div>
-                    <img className="img-fluid" src="images/account1.png" alt="..." style={{opacity:"60%"}}/>
+                    <img className="img-fluid" src="images/account1.png" alt="account homepage" style={{opacity:"60%"}}/>
                 </button>
                 <button
                 onClick={()=> {setIndex(2)}}
@@ -95,7 +95,7 @@ export default function Porfolio () {
                         {jeopardyHov ? <><div>Jeopardy</div><span style={{fontSize:"16pt"}}><BsArrowRightCircle /></span></>:<div className="h2">Jeopardy</div>}
                         </div>
                     </div>
-                    <img className="img-fluid" src="images/jeopardy1.png" alt="..." style={{opacity:"60%"}}/>
+                    <img className="img-fluid" src="images/jeopardy1.png" alt="jeopardy webpage" style={{opacity:"60%"}}/>
                 </button>
                 <button
                   onClick={()=> {setIndex(3)}}
@@ -109,7 +109,7 @@ export default function Porfolio () {
                               {blackjackHov ? <><div>Blackjack</div><span style={{fontSize:"16pt"}}><BsArrowRightCircle /></span></>:<div className="h2">Blackjack</div>}
                               </div>
                           </div>
-                          <img className="img-fluid" src="images/blackjack1.png" alt="..." style={{opacity:"60%"}}/>
+                          <img className="img-fluid" src="images/blackjack1.png" alt="blackjack webpage" style={{opacity:"60%"}}/>
                 </button>
                 <button
                   onClick={()=> {setIndex(4)}}
@@ -124,7 +124,7 @@ export default function Porfolio () {
                                 {gofishHov ? <><div>Go Fish</div><span style={{fontSize:"16pt"}}><BsArrowRightCircle /></span></>:<div className="h2">Go Fish</div>}
                               </div>
                           </div>
-                          <img className="img-fluid" src="images/gofish1.png" alt="..." style={{opacity:"60%"}}/>
+                          <img className="img-fluid" src="images/gofish1.png" alt="go fish webpage" style={{opacity:"60%"}}/>
                 </button>
               </div>
           </div>

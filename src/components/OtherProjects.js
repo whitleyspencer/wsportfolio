@@ -30,7 +30,7 @@ export default function OtherProjects() {
                 {conferenceHover && <> Micoservice-based Conference management application developed using principles of Domain Driven Design</>}
               </div>
             </div>
-              <img src="images/conferencego.png" alt="image of conference application" />
+              <img src="images/conferencego.png" alt="conference application" />
               </div>
               <h5 style={{marginTop:"5px", color:"lightgrey", display:"flex", justifyContent:"center", alignItems:"center"}}>
               Django <BsDot/> React <BsDot/> SQLite <BsDot/> RabbitMQ
@@ -56,7 +56,7 @@ export default function OtherProjects() {
                   {autoHover && <> Automobile dealership management application featuring sales, service, and inventory microservices</>}
                 </div>
               </div>
-                <img src="images/dealerhubpro.png" alt="image of conference application" />
+                <img src="images/dealerhubpro.png" alt="automobile dealership application" />
             </div>
             <h5 style={{marginTop:"5px", color:"lightgrey", display:"flex", justifyContent:"center", alignItems:"center"}}>
               Django <BsDot/> React <BsDot/> SQLite

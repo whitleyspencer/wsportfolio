@@ -1,5 +1,4 @@
-import React, { Component, useState } from 'react';
-import resumeData from '../resumeData';
+import React, { useState } from 'react';
 import Typewriter from "typewriter-effect";
 import { GrLinkedin } from "react-icons/gr";
 import {HiOutlineDocumentText} from "react-icons/hi";
@@ -128,10 +127,10 @@ export default function About () {
                <div id='backend-skills' className='skills-row'>
                <h3 className='skills-header'>Backend</h3>
                <div  style={{display:"grid", gridTemplateColumns:"1fr 1fr 1fr 1fr", gridTemplateRows:"1fr .5fr", justifyItems:"center", marginBottom:"20px"}}>
-                  <img src="images/django.png" style={{height:"35px"}} alt="python logo"/>
-                  <img src="images/fastapi.png" style={{height:"35px"}}alt="javascript logo"/>
-                  <img src="images/postgresql.png" style={{height:"35px"}}alt="c-sharp logo"/>
-                  <img src="images/rabbitmq.png" style={{height:"35px"}} alt="sql logo"/>
+                  <img src="images/django.png" style={{height:"35px"}} alt="django logo"/>
+                  <img src="images/fastapi.png" style={{height:"35px"}}alt="fastAPI logo"/>
+                  <img src="images/postgresql.png" style={{height:"35px"}}alt="postgreSQL logo"/>
+                  <img src="images/rabbitmq.png" style={{height:"35px"}} alt="rabbitMQ logo"/>
                   <h6 style={{color:"white"}}>Django</h6>
                   <h6 style={{color:"white"}}>FastAPI</h6>
                   <h6 style={{color:"white"}}>PostgreSQL</h6>
@@ -142,9 +141,9 @@ export default function About () {
                <h3 className='skills-header'>System Design</h3>
                <div style={{display:"grid", gridTemplateColumns:"1fr 1fr 1fr 1fr", gridTemplateRows:"1fr .5fr", justifyItems:"center"}}>
                   <span style={{fontSize: "26pt"}}><TbApi /></span>
-                  <img src="images/microservices.png" style={{height:"35px"}}alt="javascript logo"/>
+                  <img src="images/microservices.png" style={{height:"35px"}}alt="microservices"/>
                   <span style={{fontSize: "26pt", color:"rgba(66,133,155,90)"}}><PiInfinityDuotone /></span>
-                  <img src="images/docker.png" style={{height:"35px"}}alt="c-sharp logo"/>
+                  <img src="images/docker.png" style={{height:"35px"}}alt="docker logo"/>
                   <h6 style={{color:"white"}}>API Development</h6>
                   <h6 style={{color:"white"}}>Microservices</h6>
                   <h6 style={{color:"white"}}>CI/CD</h6>

@@ -5,8 +5,6 @@ import {AiOutlineMail} from "react-icons/ai"
 import {GrCopy} from "react-icons/gr"
 import {VscTriangleUp} from "react-icons/vsc"
 
-// import { useForm, ValidationError} from '@formspree/react';
-
 export default function ContactForm() {
   const [messageSent, setMessageSent] = useState(false)
   const [showEmail, setShowEmail] = useState(false)
