@@ -108,7 +108,7 @@ code {
   font-family: "lucinda console", monospace;
   letter-spacing:.1em;
   margin-right: 50px;
-  height: .75vh;
+  min-height: auto;
   color:white
 }
 

@@ -96,16 +96,16 @@ export default function About () {
                <h1 style={{color:"black"}}></h1>
                <div className='skills-row' id="language-skills">
                <h3 className='skills-header'>Languages</h3>
-               <div  style={{display:"grid", gridTemplateColumns:"1fr 1fr 1fr 1fr 1fr 1fr", gridTemplateRows:"1fr .5fr", justifyItems:"center", marginBottom:"20px"}}>
+               <div  style={{display:"grid", gridTemplateColumns:"1fr 1fr 1fr 1fr 1fr", gridTemplateRows:"1fr .5fr", justifyItems:"center", marginBottom:"20px"}}>
                   <img src="images/python.png" alt="python logo" id="skills-logo"/>
                   <img src="images/javascript.png" style={{height:"35px"}}alt="javascript logo"/>
-                  <img src="images/csharp.png" style={{height:"35px"}}alt="c-sharp logo"/>
+                  {/* <img src="images/csharp.png" style={{height:"35px"}}alt="c-sharp logo"/> */}
                   <img src="images/sql.png" style={{height:"35px"}} alt="sql logo"/>
                   <img src="images/html.png" style={{height:"35px"}}alt="html logo"/>
                   <img src="images/css.png" style={{height:"35px"}}alt="css logo"/>
                   <h6 style={{color:"white"}}>Python</h6>
                   <h6 style={{color:"white"}}>javascript</h6>
-                  <h6 style={{color:"white"}}>C Sharp</h6>
+                  {/* <h6 style={{color:"white"}}>C Sharp</h6> */}
                   <h6 style={{color:"white"}}>SQL</h6>
                   <h6 style={{color:"white"}}>HTML 5</h6>
                   <h6 style={{color:"white"}}>CSS</h6>
@@ -153,11 +153,11 @@ export default function About () {
             </div>
          </div>
          </div>
-         <div  style={{marginTop:"-11%", textAlign:"right", marginRight:"50px"}}>
+         {/* <div  style={{marginTop:"-11%", textAlign:"right", marginRight:"50px"}}>
          <p className="scrolldown">
             <a className="smoothscroll" href="#timeline" style={{fontSize:"24pt"}}><i className="icon-down-circle"></i></a>
          </p>
-         </div>
+         </div> */}
       </section>
     );
 
